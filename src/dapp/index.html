@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label>
+            <input type="text" id="flight-number" placeholder="flight number/name">
+            <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+        
+        <!--pay airline activation fee-->
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Pay Airline Activation Fee</label>
+            <btn class="btn btn-primary" id="pay-fee">Pay</btn>
+        </div>
+
+         <!--register a flight-->
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Register a flight</label>
+            <input type="text" id="flight-to-reg" placeholder="flight name">
+            <btn class="btn btn-primary" id="reg-flight">Register Flight</btn>
+        </div>
+
+        <!--buy insurance-->
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Buy Insurance</label>
+            <input type="text" id="flight-buy" placeholder="flight name">
+            <input type="text" id="amount-buy" placeholder="buy-in price">
+            <btn class="btn btn-primary" id="buy-insurance">Buy Insurance</btn>
+        </div>
+
+         <!--get refund-->
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Get refund for flight</label>
+            <input type="text" id="flight-refund" placeholder="flight name">
+            <btn class="btn btn-primary" id="refund">Get Refund</btn>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
